@@ -13,7 +13,7 @@ body{
 .heading{
     box-sizing: border-box;
     width: 100vw;
-    height: 5.5rem;
+    min-height: 5.5rem;
     background-color: #f1c40f;
     color: #282936;
     box-shadow:0px 10px 10px rgb(231, 226, 226);
