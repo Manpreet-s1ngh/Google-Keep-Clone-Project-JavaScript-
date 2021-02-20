@@ -1,0 +1,168 @@
+*{
+    margin:0;
+    padding: 0;
+    outline: none;
+    border:none;
+}
+
+body{
+    background-color: #f4f7f8;  
+    /* font-family:Verdana, Geneva, Tahoma, sans-serif; */
+}
+
+.heading{
+    box-sizing: border-box;
+    width: 100vw;
+    height: 5.5rem;
+    background-color: #f1c40f;
+    color: #282936;
+    box-shadow:0px 10px 10px rgb(231, 226, 226);
+    border: 2px solid white;
+}
+
+.heading h1{
+line-height: 5rem;
+margin-left: 2rem;
+ font-weight: bold;
+}
+
+#butt{
+    margin-right: 20px;
+    display: flex;
+  
+    justify-content: flex-end;
+   margin-top: 5px;
+   padding: 2px;
+}
+.btn{   
+    background-color:white;
+    width: 150px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+    color: #f1c40f;
+     border: none;
+    cursor: pointer;
+    border: 2px solid #f1c40f;
+    border-radius: 10px;
+    outline: none;
+    box-shadow: 3px 4px 7px rgb(184, 175, 175);
+    
+}
+
+.btn:hover{
+    
+    background-color: #f1c40f;
+    color: white;
+    box-shadow: 2px 4px 5px rgb(112, 109, 109);
+    border: 1px solid white;
+    
+}
+
+.text{
+    
+    font-size: 1.2rem;
+    outline: none;
+    padding: 5px;
+    border: 1px solid whitesmoke;
+    border-radius: 6px; 
+    background-color: whitesmoke;
+    
+}
+
+.operation{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5px;
+}
+#topic{
+    border-radius: 6px; 
+    padding-left: 5px;
+    font-family: monospace;
+    letter-spacing: normal;
+    font-size: 1.2rem;
+    width: 200px;
+    border: 1px solid rgb(240, 234, 234);
+    margin-right: 4px;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+   
+}
+.show{
+    border-radius: 6px; 
+    padding-left: 5px;
+    font-family: monospace;
+    letter-spacing: normal;
+    font-size: 1.2rem;
+    width: 200px;
+    border: 1px solid rgb(240, 234, 234);
+    margin-right: 4px;
+}
+.edit{
+    margin:2px;
+    border: none;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+    background-color: limegreen;
+    color: white;
+    cursor: pointer;
+}
+.edit:hover{
+    background-color: whitesmoke;
+    color: limegreen;
+    
+}
+
+.det{
+    margin:2px;
+    border: none;
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+    height: 30px;
+    width: 30px;
+}
+
+.det:hover{
+    cursor: pointer;
+   background-color: whitesmoke;
+   color: red;
+}
+
+.note{
+    
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    background-color:white;
+    width: 270px;
+    height: 150px;
+    border: 1px solid rgb(240, 234, 234);
+    padding: 5px;  
+    border-radius: 6px; 
+    overflow: hidden;
+}
+
+.empty{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.hidden{
+display: none;
+}
+
+.main{
+    font-size: 1.1rem;
+    font-size: 1.2rem;
+    outline: none;
+    padding: 5px;
+    background-color: white;
+    border: 1px solid whitesmoke;
+    border-radius: 6px; 
+    overflow-x: hidden; 
+    overflow-y: auto; 
+    
+}
